@@ -17,8 +17,8 @@
 		
 - (void)dealloc
 {
-    [_detailViewController release];
-    [_detailViewController2 release];
+    _detailViewController =nil;
+    _detailViewController2 =nil;
     [super dealloc];
 }
 
